@@ -19,7 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: AzureFileCopy@3
   inputs:
-    SourcePath: '$(System.DefaultWorkingDirectory)/sistlainfrastructures-web/web'
+    SourcePath: '$(System.DefaultWorkingDirectory)/sistlainfrastructures-web/web/'
     azureSubscription: 'Visual Studio Professional with MSDN (0553e6b9-d863-45b0-91c3-93903ab4e9dd)'
     Destination: 'AzureBlob'
     storage: 'sistlainfrastructures'
